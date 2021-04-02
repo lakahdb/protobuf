@@ -106,7 +106,7 @@ Unreleased Changes (C++/Java/Python/PHP/Objective-C/C#/Ruby/JavaScript)
   * Avoid potential for missed wakeup in UnknownFieldSet
   * Now Proto3 Oneof fields have "has" methods for checking their presence in
     C++.
-  * Bugfix for NVCC
+  * Bugfix for NVCC.
   * Return early in _InternalSerialize for empty maps.
   * Adding functionality for outputting map key values in proto path logging
     output (does not affect comparison logic) and stop printing 'value' in the
